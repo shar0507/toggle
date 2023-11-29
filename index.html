@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VITP Projects</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Projects of VIT Pune</h1>
+
+
+        <ul class="nav nav-tabs" id="projectTabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#ediProjects">EDI Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#courseProjects">Course Projects</a>
+            </li>
+        </ul>
+
+
+        <div class="tab-content mt-4">
+            <!--edi projects-->
+            <div id="ediProjects" class="tab-pane fade show active">
+                <div class="accordion" id="ediAccordion">
+                    <!--project 1-->
+                    <div class="card">
+                        <div class="card-header" id="ediProject1">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#ediCollapse1" aria-expanded="true" aria-controls="ediCollapse1">
+                                    TY-CSA Group:1
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="ediCollapse1" class="collapse" aria-labelledby="ediProject1"data-parent="#ediAccordion">
+                            <div class="card-body">
+                                <h5>SocialConnect</h5>
+                                <p>A social networking platform that allows users to connect and share content with friends and family.
+                                It provides a user-friendly interface, real-time messaging, and a customizable feed to keep users engaged and connected.</p>
+                                <h6>Technologies: HTML, CSS, Flask</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--project 2-->
+                    <div class="card">
+                        <div class="card-header" id="ediProject2">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"data-target="#ediCollapse2" aria-expanded="true" aria-controls="ediCollapse2">
+                                    TY-CSA Group:2
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="ediCollapse2" class="collapse" aria-labelledby="ediProject2"data-parent="#ediAccordion">
+                            <div class="card-body">
+                                <h5>Rapid</h5>
+                                <p>Developed a news application in Java, with the aim of providing the latest updates on
+                                    happenings
+                                    across the country and around the world. Serves as a platform for users to read
+                                    quick highlights on
+                                    various topics of interest- politics, sports, entertainment, technology and more.
+                                </p>
+                                <h6>Technologies: XML, Java</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--project 3-->
+                    <div class="card">
+                        <div class="card-header" id="ediProject3">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#ediCollapse3" aria-expanded="true" aria-controls="ediCollapse3">
+                                    TY-CSB Group:3
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="ediCollapse3" class="collapse" aria-labelledby="ediProject3"data-parent="#ediAccordion">
+                            <div class="card-body">
+                                <h5>TicketChain</h5>
+                                <p>A secure and transparent ticketing platform based on blockchain technology, ensuring the authenticity of bus tickets. 
+                                It enables users to purchase, sell, and verify bus tickets securely, reducing the possibility of fraud and ensuring a transparent ticketing system.</p>
+                                <h6>Technologies: Blockchain, Solidity</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--course projects-->
+            <div id="courseProjects" class="tab-pane fade">
+                <div class="accordion" id="courseAccordion">
+                    <!--cp1-->
+                    <div class="card">
+                        <div class="card-header" id="courseProject1">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#courseCollapse1" aria-expanded="true" aria-controls="courseCollapse1">
+                                    TY-CSA Group:4
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="courseCollapse1" class="collapse" aria-labelledby="courseProject1" data-parent="#courseAccordion">
+                            <div class="card-body">
+                                <h5>BusTracker IoT</h5>
+                                <p>An IoT-based system designed to provide real-time tracking and management of bus fleets.
+                                It includes GPS modules installed in buses, enabling users to track bus locations and estimated arrival times in real-time through a mobile application.
+                                The system also monitors key parameters such as engine health and fuel consumption to ensure efficient fleet management and maintenance scheduling.</p>
+                                <h6>Technologies: Rpi, IOT</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--cp2-->
+                    <div class="card">
+                        <div class="card-header" id="courseProject2">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#courseCollapse2" aria-expanded="true" aria-controls="courseCollapse2">
+                                    TY-CSB Group:5
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="courseCollapse2" class="collapse" aria-labelledby="courseProject2"
+                            data-parent="#courseAccordion">
+                            <div class="card-body">
+                                <h5>IoT-based Smart Segregation System</h5>
+                                <p>A waste segregation system equipped with several sensors capable of identifying and
+                                    separating dry,
+                                    wet and metallic waste.</p>
+                                <h6>Technologies: Arduino</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
